@@ -1,0 +1,277 @@
+{
+  "_test_metadata": {
+    "description": "PIPE2 End-to-End Test Payload - COMPLETE",
+    "version": "1.2.0",
+    "created": "2026-01-11",
+    "author": "PIPE2 System",
+    "notes": "Fictional building at 123 Main Street for testing. All data is synthetic but plausible for a 1980s West End office refurbishment. User questions aligned with User_questions.csv."
+  },
+  "session_id": "PIPE-TEST-AAA999-AAA999-AAA999",
+  "fields": {
+    "address_line_1": "123 Main Street",
+    "post_code": "W1A 1AA",
+    "city": "London",
+    "uprn": "100023456789",
+    "latitude": "51.5185",
+    "longitude": "-0.1437",
+    "lsoa_code": "E01004736",
+    "lsoa_name": "Westminster 018C",
+    "date": "11 January 2026",
+    "created_at": "2026-01-11T10:00:00.000Z",
+    "session_id": "PIPE-TEST-AAA999-AAA999-AAA999",
+    "field_guide_version": "2.43",
+    "user_name": "Test User",
+    "user_email": "test@forepartnership.com",
+
+    "const_date": "1985",
+    "refurb_date": "2018",
+    "refurb_history": "Originally constructed in 1985 as a speculative office development. Minor lobby refurbishment in 2005. Comprehensive refurbishment completed in 2018 including new VRF system, LED lighting throughout, and full CAT A fit-out to floors 2-6. Reception upgraded in 2020. Building management system replaced with Trend IQ4 in 2021.",
+    "use_class": "Office (Class E)",
+    "gia": "85,000",
+    "nia": "63,750",
+    "tenure": "Freehold",
+    "conservation_area": "Mayfair",
+    "listed_building_grade": "Not listed",
+    "listed_building_name": "",
+    "listed_status": "Not listed",
+    "nhle_link": "",
+
+    "long_bldg_descr": "123 Main Street is a seven-storey plus basement commercial office building constructed in 1985 with steel frame and reinforced concrete floors. The building presents a Portland stone and glazed curtain wall facade typical of mid-1980s West End commercial architecture. Typical floor plates of approximately 9,100 sq ft NIA with central core providing two 13-person passenger lifts and single goods lift. The 2018 refurbishment modernised common areas and introduced raised access floors throughout. Ground floor comprises reception and retail unit fronting Main Street.",
+
+    "long_bldg_system_summary": "The building is served by a variable refrigerant flow (VRF) system installed during the 2018 refurbishment, with roof-mounted condensing units serving floor-by-floor fan coil units. Heating is provided via the same VRF system operating in heat pump mode, supplemented by LTHW radiators in common areas fed from a gas-fired boiler in the basement plant room. Ventilation is mechanical with heat recovery, achieving approximately 12 l/s/person. Lighting is LED throughout with PIR occupancy sensors and daylight dimming. The Trend IQ4 BMS provides centralised monitoring and control of all major systems.",
+
+    "epc_letter": "C",
+    "epc_number": "72",
+    "epc_rating": "C (72)",
+    "epc_benchmark": "B (35)",
+    "epc_date": "15 March 2023. Certificate number 0921-8847-7729-2810-9925",
+    "epc_co2_emissions": "Building Emission Rate: 52.3 kgCO₂/m²/year. Primary Energy Use (EUI): 198 kWh/m²/year",
+    "epc_commentary": "The current EPC rating of C (72) reflects the 2018 refurbishment improvements but remains significantly below the benchmark for new builds. The certificate expires in March 2033. Key recommendations from the assessor include upgrading to LED lighting in remaining areas (now complete), improving building fabric insulation, and considering renewable energy generation. The relatively high EUI of 198 kWh/m²/year against a LETI target of 55 kWh/m²/year indicates substantial scope for improvement.",
+    "epc_lmk_key": "0921884777292810992500",
+    "epc_lodgement_datetime": "2023-03-15T14:30:00",
+    "epc_main_heating_fuel": "Natural Gas",
+    "epc_postcode": "W1A 1AA",
+    "epc_renewable_sources": "None",
+    "epc_standard_emissions": "45.2 kgCO₂/m²/year",
+    "epc_uprn": "100023456789",
+    "epc_url": "https://find-energy-certificate.service.gov.uk/energy-certificate/0921-8847-7729-2810-9925",
+
+    "imd_decile": "8",
+    "imd_rank": "27834",
+    "imd_score": "12.456",
+    "imd_income_decile": "9",
+    "imd_employment_decile": "9",
+    "imd_education_decile": "7",
+    "imd_health_decile": "8",
+    "imd_crime_decile": "3",
+    "imd_barriers_decile": "2",
+    "imd_living_env_decile": "4",
+    "imd_idaci_decile": "8",
+    "imd_idaopi_decile": "7",
+    "imd_population_total": "1,456",
+    "imd_analysis": "This LSOA sits in Decile 8 (rank 27,834 of 32,844), placing it in the least deprived 20% nationally—a strong baseline for West End commercial investment. However, significant domain tension exists: Income (Decile 9) and Employment (Decile 9) contrast sharply with Crime (Decile 3), Barriers to Housing (Decile 2), and Living Environment (Decile 4). This 5-7 point spread is characteristic of prime Central London: high economic activity coexisting with poor air quality, housing affordability constraints, and elevated property crime. Resilience indicators are robust: Education (Decile 7) and Health (Decile 8) suggest a stable, professional demographic. IDACI (Decile 8) confirms low child poverty; IDAOPI (Decile 7) indicates manageable older population vulnerability. Investment implication: IMD profile strongly supports the thesis. The economic fundamentals (income, employment) are exceptional. The weak domains (crime, barriers, living environment) are structural features of prime Central London rather than area-specific risks—they apply equally to competing assets. The low Crime decile warrants enhanced security specification but does not challenge viability. Proceed with confidence.",
+
+    "ownership_name": "Main Street Properties Limited",
+    "ownership_date": "12 September 2019",
+    "ownership_insights": "Main Street Properties Limited is a subsidiary of Exemplar Real Estate Partners, a UK-focused commercial real estate investment manager with approximately £2.1bn AUM. The company acquired 123 Main Street in September 2019 for £47.5m, representing a net initial yield of 4.8%. Prior to this, the building was held by Aberdeen Standard Investments from 2010-2019, having been acquired from British Land in 2010. The property has been institutionally owned since original development in 1985.",
+    "price_paid": "£47,500,000",
+
+    "planning_status": "Approved",
+    "planning_latest_app_ref": "23/04521/FULL",
+    "planning_latest_app_date": "18 July 2023",
+    "planning_latest_app_type": "Full",
+    "planning_latest_app_description": "Installation of air source heat pumps at roof level, replacement of existing gas boilers, and associated plant screening",
+    "planning_history": "The building has an active planning history reflecting ongoing improvement works. Most recently, full planning permission (ref 23/04521/FULL) was granted in October 2023 for air source heat pump installation. In 2018, approval was granted for the comprehensive refurbishment including new shopfront and entrance canopy (ref 17/09876/FULL). A 2015 application for a two-storey rooftop extension was refused due to impact on conservation area views (ref 15/02345/FULL). Listed Building Consent is not required as the building is not listed.",
+
+    "occupier_mix": "The building is approximately 85% let across six office floors. Major tenants include Meridian Consulting (floors 5-6, 18,200 sq ft at £85/sq ft, lease to 2029 with break 2027), Ashford Legal LLP (floors 3-4, 18,200 sq ft at £82/sq ft, lease to 2031), and Vertex Digital (floor 2, 9,100 sq ft at £78/sq ft, lease to 2026). Ground floor retail (2,500 sq ft) is let to Costa Coffee at £150/sq ft. Floor 1 (9,100 sq ft) is currently vacant following tenant departure in Q3 2025.",
+
+    "crrem_strand_year": "2029",
+    "crrem_delta": "187 kgCO₂/m²",
+    "crrem_VAR": "£4,250,000",
+    "crrem_comments": "Based on current EUI of 198 kWh/m²/year and building emission rate of 52.3 kgCO₂/m²/year, the building intersects the CRREM 1.5°C pathway for UK offices in 2029. This represents a stranding risk within 4 years under current performance. The standing point analysis indicates the building is currently 187 kgCO₂/m² above the cumulative carbon budget to 2050. Key assumptions include: grid decarbonisation per National Grid FES 2024, no major interventions, and stable occupancy patterns.",
+    "crrem_adv_comments": "The advanced CRREM analysis models three intervention scenarios against the 1.5°C pathway. Scenario 1 (fabric-first) extends stranding to 2034 through improved insulation and glazing (£2.1m capex). Scenario 2 (electrification) achieves pathway compliance through ASHP installation and renewable procurement (£3.8m capex, payback 8.2 years). Scenario 3 (deep retrofit) combines both approaches with PV installation, achieving a 65% EUI reduction and creating 12-year carbon budget headroom (£6.2m capex). NPV analysis favours Scenario 2 at current energy prices. Confidence is moderate given uncertainty in future grid carbon factors and occupier energy consumption patterns.",
+
+    "cert_target_EPC": "B",
+    "cert_target_EPC_comments": "Achieving EPC B (sub-50) is realistic through the proposed retrofit interventions. The primary drivers are electrification of heating (removing gas dependency), improved building fabric performance, and on-site renewable generation. Modelling indicates an achievable rating of B (42) post-intervention. High confidence in lighting and controls improvements; moderate confidence in fabric measures due to conservation area constraints on external insulation. The 2028 MEES threshold of EPC B makes this a compliance requirement for continued letting.",
+    "cert_target_breeam": "EXCELLENT",
+    "cert_target_breeam_comments": "BREEAM In-Use Excellent certification is achievable with targeted investment. Current assessment indicates strong performance in Management (exemplary BMS and maintenance regime) and Health & Wellbeing (good daylight and air quality). Weaker areas include Energy (high EUI), Materials (limited information on 2018 refurbishment materials), and Land Use & Ecology (minimal greening). Key actions required: renewable energy procurement, biodiversity improvements to roof terrace, and enhanced waste management. Estimated certification cost £45,000 including assessor fees.",
+    "cert_target_nabers": "4.0",
+    "cert_target_nabers_comments": "NABERS UK Energy rating of 4.0 stars is a realistic near-term target, with 5.0 stars achievable post-deep retrofit. Current performance would achieve approximately 2.5 stars based on 198 kWh/m²/year EUI. The gap to 4.0 stars (approximately 90 kWh/m²/year) requires significant intervention. Quick wins include optimising BMS schedules (estimated 15% reduction), LED lighting completion, and tenant engagement programme. Deep retrofit measures (ASHP, enhanced insulation) required for 5.0 star performance.",
+    "cert_target_well": "Gold",
+    "cert_target_well_comments": "WELL v2 Gold certification is achievable through targeted improvements building on existing strengths. The 2018 refurbishment provides good baseline air quality and thermal comfort. Strong performance expected in Air (mechanical ventilation with heat recovery), Light (LED with daylight dimming), and Movement (cycle storage and showers). Gaps exist in Nourishment (no on-site catering facilities), Mind (limited biophilic design), and Community (meeting space constraints). Recommended: biophilic design package for reception and common areas, enhanced water filtration, and acoustic improvements to open plan floors.",
+
+    "renew_roof_area_total": "850",
+    "renew_roof_area_solar": "420",
+    "renew_shading": "Minimal shading impact from adjacent buildings due to height advantage. Some self-shading from rooftop plant enclosures on north side.",
+    "renew_struct": "Structural assessment indicates roof can accommodate 15 kWp PV array without reinforcement. Additional loading for larger installation requires further structural survey.",
+    "renew_conclusions": "Solar PV installation is technically viable with 420 m² of useable roof area supporting approximately 63 kWp capacity. Estimated annual generation of 53,550 kWh would offset approximately 7% of current building consumption. Combined with approved ASHP installation, renewable energy contribution increases significantly. Key constraint is roof access for maintenance given existing plant. Confidence in structural assessment is moderate pending detailed survey. Recommend proceeding with planning application for PV installation concurrent with ASHP works.",
+
+    "postrefurb_eui": "85",
+    "postrefurb_embodied": "245",
+    "postrefurb_nia": "65,500",
+    "postrefurb_nia_pc": "+2.7%",
+    "postrefurb_roic": "8.2%",
+    "postrefurb_euice": "£125",
+    "strategic_decarb_comments": "The optimised Retrofit Strategy achieves a 57% reduction in EUI from 198 to 85 kWh/m²/year through a phased approach. Phase 1 (2026) focuses on quick wins: BMS optimisation, completion of LED retrofit, and tenant engagement programme delivering 20% reduction at minimal cost. Phase 2 (2027) delivers electrification: ASHP installation replacing gas boilers (planning approved), VRF system optimisation, and renewable energy procurement. Phase 3 (2028) addresses fabric: secondary glazing to all office floors, roof insulation upgrade, and PV installation. Interventions discounted include external wall insulation (conservation area constraints) and full window replacement (cost-benefit unfavourable). The strategy achieves MEES compliance, CRREM pathway alignment to 2040, and positions the asset for NABERS 4.0 star rating. Embodied carbon of 245 kgCO₂/m² is within LETI guidance for major refurbishment. Confidence is high for Phase 1-2 measures; moderate for Phase 3 pending detailed design.",
+
+    "cost_rate_plant": "£45",
+    "cost_rate_floor": "£12",
+    "cost_rate_light": "£8",
+    "cost_rate_win": "£25",
+    "cost_rate_ins": "£18",
+    "cost_rate_cata": "£85",
+    "cost_rate_pv": "£15",
+    "cost_rate_water": "£5",
+    "cost_rate_nia": "£0",
+    "cost_rate_recept": "£35",
+    "cost_rate_eot": "£22",
+    "cost_rate_other": "£10",
+    "cost_rate_fees": "£42",
+    "cost_rate_total": "£322",
+
+    "cost_tot_plant": "£3,825,000",
+    "cost_tot_floor": "£1,020,000",
+    "cost_tot_light": "£680,000",
+    "cost_tot_win": "£2,125,000",
+    "cost_tot_ins": "£1,530,000",
+    "cost_tot_cata": "£773,500",
+    "cost_tot_pv": "£1,275,000",
+    "cost_tot_water": "£425,000",
+    "cost_tot_nia": "£0",
+    "cost_tot_recept": "£2,975,000",
+    "cost_tot_eot": "£1,870,000",
+    "cost_tot_other": "£850,000",
+    "cost_tot_fees": "£3,570,000",
+    "cost_tot_total": "£20,918,500",
+
+    "cost_source_plant": "BCIS 2024 Q4, ASHP supplier quotations",
+    "cost_source_floor": "BCIS 2024 Q4, Spon's M&E 2024",
+    "cost_source_light": "Supplier quotation, Phillips LED",
+    "cost_source_win": "BCIS 2024 Q4, secondary glazing specialist",
+    "cost_source_ins": "BCIS 2024 Q4, Kingspan guidance",
+    "cost_source_cata": "BCIS 2024 Q4, CAT A benchmark",
+    "cost_source_pv": "MCS installer quotation, Solar Energy UK",
+    "cost_source_water": "BCIS 2024 Q4, Spon's M&E 2024",
+    "cost_source_recept": "Interior design consultant estimate",
+    "cost_source_eot": "BCIS 2024 Q4, BBP guidance",
+    "cost_source_other": "Contingency allowance",
+    "cost_source_fees": "RIBA fee scale, 15% of works",
+
+    "cost_comments": "Total retrofit cost of £20.9m equates to £246/sq ft GIA or £322/sq ft NIA, which benchmarks favourably against BCIS median for comprehensive office refurbishment in Central London (£285-340/sq ft NIA). The largest cost drivers are main plant replacement (ASHP and associated electrical upgrade) at 18% of total, and reception/common area upgrades at 14%. Professional fees at 15% of construction cost is conservative given project complexity. Key cost risks include: discovery works to existing structure (10% contingency included), energy price volatility affecting payback calculations, and potential conservation officer requirements. Confidence is high for standard M&E items; moderate for specialist items pending detailed specification.",
+
+    "user_question_01": "Reason 1",
+    "user_answer_01": "Prime West End location with strong tenant demand",
+
+    "user_question_02": "Expand Reason 1",
+    "user_answer_02": "The property benefits from exceptional connectivity with Oxford Circus and Bond Street stations within 5 minutes walk. The West End office market consistently outperforms other Central London submarkets with vacancy rates below 4% and prime rents exceeding £100/sq ft for best-in-class space.",
+
+    "user_question_03": "Reason 2",
+    "user_answer_03": "Significant value-add through sustainability retrofit",
+
+    "user_question_04": "Expand Reason 2",
+    "user_answer_04": "The building's current EPC C rating and 2029 CRREM stranding date create urgency for intervention. Our retrofit strategy achieves EPC B and extends CRREM compliance to 2040, unlocking green premium rents of 10-15% while future-proofing against tightening MEES regulations.",
+
+    "user_question_05": "Reason 3",
+    "user_answer_05": "Attractive entry pricing with refurbishment upside",
+
+    "user_question_06": "Expand Reason 3",
+    "user_answer_06": "Acquisition at £560/sq ft represents a 15% discount to prime West End values reflecting current condition. Post-retrofit values of £700-750/sq ft are achievable based on comparable transactions for BREEAM Excellent buildings, generating significant capital uplift alongside income growth.",
+
+    "user_question_07": "Scope Summary",
+    "user_answer_07": "Comprehensive M&E upgrade with fabric improvements",
+
+    "user_question_08": "Performance Targets",
+    "user_answer_08": "Post-retrofit targets: EPC B (42), BREEAM Excellent, NABERS 4.0 stars, WELL Gold. EUI reduction from 198 to 85 kWh/m²/year (57% improvement). Carbon intensity reduction from 52 to 22 kgCO₂/m²/year. CRREM pathway compliance extended to 2040. Assumptions: grid decarbonisation per National Grid FES, 85% occupancy, standard operating hours. Confidence: 75% for energy targets, 85% for certification targets.",
+
+    "user_question_09": "Cooling Type",
+    "user_answer_09": "Variable Refrigerant Flow (VRF)",
+
+    "user_question_10": "Cooling Detail",
+    "user_answer_10": "Mitsubishi City Multi VRF system installed 2018 with roof-mounted condensing units serving ceiling-mounted cassette units on each floor. System operates in cooling mode April-October with inverter-driven compressors for efficient part-load operation.",
+
+    "user_question_11": "Cooling Improvement",
+    "user_answer_11": "Optimise VRF system controls through BMS integration to reduce simultaneous heating and cooling. Install CO2-based demand control ventilation to reduce cooling loads. Consider free cooling economiser mode for shoulder seasons. Estimated 15% cooling energy reduction achievable.",
+
+    "user_question_12": "Heating Type",
+    "user_answer_12": "Gas boiler with LTHW distribution",
+
+    "user_question_13": "Heating Detail",
+    "user_answer_13": "Primary heating from basement gas-fired boilers (2005 installation) serving LTHW radiators in common areas. VRF system provides supplementary heating to office floors in heat pump mode. Current gas consumption approximately 450,000 kWh/year.",
+
+    "user_question_14": "Heating Improvement",
+    "user_answer_14": "Replace gas boilers with air source heat pumps (planning approved). Extend VRF heat pump operation to reduce reliance on LTHW system. Install smart TRVs on radiators for improved zonal control. Target: eliminate gas consumption by 2027, achieving full electrification.",
+
+    "user_question_15": "Ventilation Type",
+    "user_answer_15": "Mechanical ventilation with heat recovery",
+
+    "user_question_16": "Ventilation Detail",
+    "user_answer_16": "Centralised air handling units with plate heat exchangers achieving 70% heat recovery efficiency. Fresh air rate of 12 l/s/person meeting BCO guidance. Supply and extract via floor void and ceiling void respectively. AHUs located in basement plant room with roof-level intake and discharge. Variable speed drives installed 2018.",
+
+    "user_question_17": "Ventilation Improvement",
+    "user_answer_17": "Upgrade heat recovery to rotary thermal wheel achieving 85% efficiency. Install CO2 sensors for demand-controlled ventilation reducing fan energy. Consider mixed-mode operation with openable windows on upper floors. Estimated 20% ventilation energy reduction.",
+
+    "user_question_18": "Energy Rating Improvement",
+    "user_answer_18": "Achieve EPC B through: electrification of heating (gas to ASHP), LED lighting completion, enhanced building fabric (secondary glazing, roof insulation), and on-site PV generation. Modelled post-intervention rating of B (42). Conservation area constraints limit external insulation options.",
+
+    "user_question_19": "Sustainable Features Summary",
+    "user_answer_19": "Current sustainable features include: LED lighting with occupancy and daylight sensors (installed 2018), VRF heat pump system capable of simultaneous heating and cooling, mechanical ventilation with 70% heat recovery, Trend IQ4 BMS with sub-metering, raised access floors enabling flexibility, and cycle storage for 40 bikes with shower facilities. No on-site renewable generation currently.",
+
+    "user_question_20": "Sustainable Features Improvement",
+    "user_answer_20": "Priority improvements: 63 kWp rooftop PV array (7% on-site generation), ASHP installation eliminating gas, enhanced heat recovery to 85% efficiency, smart building platform with tenant app, EV charging (6 points initially), biodiversity improvements to roof terrace, and water efficiency measures including rainwater harvesting. Confidence: 80%.",
+
+    "user_question_21": "3",
+    "user_answer_21": "3",
+
+    "user_question_22": "Lift Breakdown",
+    "user_answer_22": "Two 13-person passenger lifts serving all floors, one 2,000kg goods lift serving basement to roof. Passenger lifts modernised 2018 with destination control and regenerative drives. Goods lift original 1985 installation.",
+
+    "user_question_23": "Lift Improvement",
+    "user_answer_23": "Goods lift requires modernisation including new controller, door operators, and regenerative drive to match passenger lifts. Consider destination dispatch upgrade to further improve passenger lift efficiency and reduce wait times during peak periods.",
+
+    "user_question_24": "Cycling & Showers Summary",
+    "user_answer_24": "Basement cycle storage for 40 bikes with CCTV security. Four showers (2 male, 2 female) with lockers in basement changing facilities. Accessed via goods lift or stairwell.",
+
+    "user_question_25": "Number of Bicycle Spaces and Location",
+    "user_answer_25": "40",
+
+    "user_question_26": "Cycling and Shower Improvement",
+    "user_answer_26": "Expand cycle storage to 80 spaces (1:850 sq ft ratio) by reconfiguring basement layout. Add two additional showers per gender. Install drying room for wet weather gear. Provide maintenance station with tools and pump. Consider e-bike charging points.",
+
+    "user_question_27": "Number of Terraces",
+    "user_answer_27": "1",
+
+    "user_question_28": "Terraces Qualitative Analysis",
+    "user_answer_28": "Single roof terrace approximately 150 sq m accessed from 6th floor. Currently utilitarian with plant screening and limited furniture. South-facing with good daylight but minimal planting or amenity value. Views over surrounding rooftops to Hyde Park. Under-utilised asset with significant enhancement potential.",
+
+    "user_question_29": "Terrace Improvement",
+    "user_answer_29": "Transform roof terrace into premium amenity with biophilic design, outdoor seating for 30, planters with native species, pergola for shade, and improved access. Target biodiversity net gain through habitat features. Budget allowance £150,000.",
+
+    "user_question_30": "Limitation of the existing building 1",
+    "user_answer_30": "Single-glazed curtain wall facade provides poor thermal performance with U-values of approximately 5.0 W/m²K compared to current best practice of 1.4 W/m²K. Responsible for significant heat loss in winter and solar gain in summer, driving high HVAC energy consumption.",
+
+    "user_question_31": "Limitation of the existing building 2",
+    "user_answer_31": "Gas-fired heating system incompatible with net zero pathway and increasingly unfavourable from regulatory and cost perspective. Replacement required within 2-3 years to meet MEES requirements and avoid stranded asset risk as carbon pricing increases.",
+
+    "user_question_32": "Limitation of the existing building 3",
+    "user_answer_32": "Conservation area designation constrains external alterations including window replacement, external wall insulation, and prominent rooftop plant. Limits achievable fabric performance improvements and requires careful design of any visible interventions.",
+
+    "user_question_33": "Limitation of the existing building 4",
+    "user_answer_33": "Floor-to-ceiling heights of 2.7m are below current Grade A expectations of 2.85m minimum. Cannot be addressed without major structural intervention. Partially mitigated through high-quality fit-out and enhanced amenities to offset specification shortfall.",
+
+    "XXX": "",
+
+    "fields_completed": "191",
+    "fields_total": "191",
+    "completion_percent": "100",
+    "data_sources_list": "OS_PLACES, EPC, IMD_2025, HMLR, PLANNING_LDN, USER, GPT",
+    "report_generated_at": "2026-01-11T13:30:00.000Z"
+  },
+  "images": {},
+  "metadata": {
+    "user_name": "Test User",
+    "user_email": "test@forepartnership.com",
+    "field_guide_version": "2.43",
+    "request_timestamp": "2026-01-11T13:30:00.000Z",
+    "test_mode": true
+  }
+}
