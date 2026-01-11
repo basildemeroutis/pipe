@@ -1,7 +1,7 @@
 {
   "_test_metadata": {
     "description": "PIPE2 End-to-End Test Payload - COMPLETE",
-    "version": "1.4.0",
+    "version": "1.3.0",
     "created": "2026-01-11",
     "author": "PIPE2 System",
     "notes": "Test payload for One Poultry (EC2R 8EJ). Field names corrected: user_question_XX \u2192 user_question_XX_text to match Dropzone storage. Real images: exterior, atrium, and location map processed to 472x472px (6cm at 200 DPI)."
