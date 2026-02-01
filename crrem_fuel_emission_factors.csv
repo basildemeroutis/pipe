@@ -1,0 +1,6 @@
+fuel_type,ef_kgco2e_per_kwh,source
+natural_gas,0.18316,CRREM V2.07
+fuel_oil,0.24677,CRREM V2.07
+district_heating,0.20431,CRREM V2.07
+coal,0.34473,CRREM V2.07
+lpg,0.21419,CRREM V2.07

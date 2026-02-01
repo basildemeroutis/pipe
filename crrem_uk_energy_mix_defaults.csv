@@ -1,0 +1,12 @@
+crrem_type,electricity_share,gas_share,cibse_elec_kwh,cibse_fossil_kwh,source_notes
+Office,0.442,0.558,95,120,CIBSE TM46 Cat 1: General office
+Retail_HighStreet,1.0,0.0,140,0,CIBSE TM46 Cat 2/3: High street/General retail
+Retail_ShoppingCentre,0.7,0.3,165,70,CIBSE TM46 Cat 3 adjusted for central plant
+Retail_Warehouse,0.292,0.708,70,170,CIBSE TM46 Cat 4: Large non-food shop
+Hotel,0.333,0.667,100,200,CIBSE TM46 Cat 16 est.
+Healthcare,0.348,0.652,80,150,CIBSE TM46 Cat 22 est.
+Industrial_Warehouse,0.2,0.8,30,120,CIBSE TM46 Cat 14 est.
+Industrial_Warehouse_Cold,0.65,0.35,130,70,Refrigeration-heavy: high elec share
+School,0.267,0.733,40,110,CIBSE TM46 Cat 10 est.
+Multifamily,0.3,0.7,30,70,CIBSE TM46 Cat 29 est.
+Other,0.4,0.6,80,120,Blended commercial default
