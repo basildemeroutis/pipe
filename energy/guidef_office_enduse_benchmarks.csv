@@ -1,0 +1,51 @@
+## Source: CIBSE Guide F (2nd edition, 2004), Table 20.9, p20-6
+## Original source: Energy Consumption Guide ECG 19
+## Document: CIBSE guide F - energy-efficiency-in-buildings.pdf
+## Extracted: 2026-02-07
+## Context: End-use energy benchmarks for offices by system type
+## Area basis: Treated floor area
+## Type 1: Cellular naturally ventilated
+## Type 2: Open plan naturally ventilated
+## Type 3: Standard air conditioned
+## Type 4: Prestige air conditioned
+office_type,office_type_name,end_use,fuel_type,good_practice_kwhm2,typical_kwhm2
+1,"Cellular NV","Gas/oil heating and hot water","fossil",79,151
+1,"Cellular NV","Catering gas","fossil",0,0
+1,"Cellular NV","Cooling","electricity",0,0
+1,"Cellular NV","Fans pumps and controls","electricity",2,6
+1,"Cellular NV","Humidification","electricity",0,0
+1,"Cellular NV","Lighting","electricity",14,23
+1,"Cellular NV","Office equipment","electricity",12,18
+1,"Cellular NV","Catering electricity","electricity",2,3
+1,"Cellular NV","Other electricity","electricity",3,4
+1,"Cellular NV","Computer room","electricity",0,0
+2,"Open plan NV","Gas/oil heating and hot water","fossil",79,151
+2,"Open plan NV","Catering gas","fossil",0,0
+2,"Open plan NV","Cooling","electricity",1,2
+2,"Open plan NV","Fans pumps and controls","electricity",4,8
+2,"Open plan NV","Humidification","electricity",0,0
+2,"Open plan NV","Lighting","electricity",22,38
+2,"Open plan NV","Office equipment","electricity",20,27
+2,"Open plan NV","Catering electricity","electricity",3,5
+2,"Open plan NV","Other electricity","electricity",4,5
+2,"Open plan NV","Computer room","electricity",0,0
+3,"Standard AC","Gas/oil heating and hot water","fossil",97,178
+3,"Standard AC","Catering gas","fossil",0,0
+3,"Standard AC","Cooling","electricity",14,31
+3,"Standard AC","Fans pumps and controls","electricity",30,60
+3,"Standard AC","Humidification","electricity",8,18
+3,"Standard AC","Lighting","electricity",27,54
+3,"Standard AC","Office equipment","electricity",23,31
+3,"Standard AC","Catering electricity","electricity",5,6
+3,"Standard AC","Other electricity","electricity",7,8
+3,"Standard AC","Computer room","electricity",14,18
+4,"Prestige AC","Gas/oil heating and hot water","fossil",107,201
+4,"Prestige AC","Catering gas","fossil",7,9
+4,"Prestige AC","Cooling","electricity",21,41
+4,"Prestige AC","Fans pumps and controls","electricity",36,67
+4,"Prestige AC","Humidification","electricity",12,23
+4,"Prestige AC","Lighting","electricity",29,60
+4,"Prestige AC","Office equipment","electricity",23,32
+4,"Prestige AC","Catering electricity","electricity",13,15
+4,"Prestige AC","Other electricity","electricity",13,15
+4,"Prestige AC","Computer room","electricity",87,105

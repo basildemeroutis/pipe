@@ -1,0 +1,8 @@
+## Source: NCM Modelling Guide 2021 Edition (England), Paragraphs 51-52, p17
+## Document: ncm_modelling_guide_2021_edition_england_21dec2021.pdf
+## Extracted: 2026-02-07
+## Context: Cooling SSEER values for Notional building
+## Notes: SSEER already accounts for 20% distribution losses and fan energy for heat rejection
+cooling_mode,sseer,cooling_setpoint_degC,notes
+"Air conditioning",4.4,,"Includes 20% distribution losses and heat rejection fan energy"
+"Mixed-mode",2.7,27,"Assumed DX unit where SSEER includes indoor/outdoor units, fans, pumps, losses"

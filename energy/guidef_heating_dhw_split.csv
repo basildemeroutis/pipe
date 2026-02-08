@@ -1,0 +1,12 @@
+## Source: CIBSE TM46 (2008) cross-referenced with Guide F Table 20.9
+## Context: Ratio to split combined "gas/oil heating + DHW" into components
+## Notes: TM46 provides separate heating and DHW benchmarks by activity type
+building_type,building_type_name,heating_fraction,dhw_fraction,notes
+1,"Cellular NV office",0.82,0.18,"TM46 office: heating 79 / DHW ~15-17 of combined 97"
+2,"Open plan NV office",0.82,0.18,"Same office archetype split"
+3,"Standard AC office",0.82,0.18,"Same office archetype split"
+4,"Prestige AC office",0.82,0.18,"Same office archetype split"
+5,"Distribution and storage",0.85,0.15,"Warehouse: minimal DHW"
+6,"Light manufacturing",0.85,0.15,"Industrial: minimal DHW"
+7,"Factory office",0.83,0.17,"Hybrid industrial/office"
+8,"General manufacturing",0.88,0.12,"Heavy industrial: very low DHW"

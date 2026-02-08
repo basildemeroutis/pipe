@@ -1,0 +1,19 @@
+## Source: NCM Modelling Guide 2021 Edition (England), Tables 30 and 31, p60
+## Document: ncm_modelling_guide_2021_edition_england_21dec2021.pdf
+## Extracted: 2026-02-07
+## Context: Monthly CO2 and primary energy factors for grid electricity
+## Table 30: Grid-supplied and grid-displaced electricity (except PV)
+## Table 31: Grid-displaced electricity by PV generation
+month,grid_co2_kgco2_per_kwh,grid_pe_kwhpe_per_kwh,pv_displaced_co2_kgco2_per_kwh,pv_displaced_pe_kwhpe_per_kwh
+"Jan",0.163,1.602,0.196,1.715
+"Feb",0.160,1.593,0.190,1.697
+"Mar",0.153,1.568,0.175,1.645
+"Apr",0.143,1.530,0.153,1.567
+"May",0.132,1.487,0.129,1.478
+"Jun",0.120,1.441,0.106,1.389
+"Jul",0.111,1.410,0.092,1.330
+"Aug",0.112,1.413,0.093,1.336
+"Sep",0.122,1.449,0.110,1.405
+"Oct",0.136,1.504,0.138,1.513
+"Nov",0.151,1.558,0.169,1.623
+"Dec",0.163,1.604,0.197,1.718

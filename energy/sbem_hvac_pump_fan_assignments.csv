@@ -1,0 +1,30 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Tables 24+26, p101-103 (from England 2025 NCM Modelling Guide)"
+hvac_system_type,pump_circuit,has_secondary_pump,fan_power_equation
+Central heating using water: radiators,LTHW only,No,None
+Central heating using water: convectors,LTHW only,No,None
+Central heating using water: floor heating,LTHW only,No,None
+Central heating with air distribution,LTHW only,No,FPS2
+Other local room heater - fanned,None,No,None
+Other local room heater - unfanned,None,No,None
+Unflued radiant heater,None,No,None
+Flued radiant heater,None,No,None
+Multiburner radiant heaters,None,No,None
+Flued forced-convection air heaters,None,No,None
+Unflued forced-convection air heaters,None,No,None
+Single-duct VAV,Both LTHW and CHW,No,FPS2
+Dual-duct VAV,Both LTHW and CHW,No,FPS2
+Indoor packaged cabinet (VAV),Both LTHW and CHW,Yes,FPS1
+Fan coil systems,Both LTHW and CHW,Yes,FPS1
+Induction system,Both LTHW and CHW,Yes,FPS3
+Constant volume system (fixed fresh air rate),Both LTHW and CHW,No,FPS2
+Constant volume system (variable fresh air rate),Both LTHW and CHW,No,FPS2
+Multizone (hot deck/cold deck),Both LTHW and CHW,No,FPS2
+Terminal reheat (constant volume),Both LTHW and CHW,No,FPS2
+Dual duct (constant volume),Both LTHW and CHW,No,FPS2
+Chilled ceilings or passive chilled beams and displacement ventilation,Both LTHW and CHW,Yes,FPS5
+Chilled ceilings or passive chilled beams and mixing ventilation,Both LTHW and CHW,Yes,FPS4
+Active chilled beams,Both LTHW and CHW,Yes,FPS3
+Water loop heat pump,Both LTHW and CHW,No,FPS2
+Split or multi-split system,None,No,None
+Single room cooling system,None,No,None
+Variable refrigerant flow,None,No,FPS4

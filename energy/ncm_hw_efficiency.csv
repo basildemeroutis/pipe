@@ -1,0 +1,25 @@
+## Source: NCM Modelling Guide 2021 Edition (England), Tables 8-10, pp19-20
+## Document: ncm_modelling_guide_2021_edition_england_21dec2021.pdf
+## Extracted: 2026-02-07
+## Context: Seasonal generator efficiency for hot water in Notional building
+## Notes: High HW demand = activity with annual HW demand > 200 litres/m² per year
+## Storage vessel size (litres) = 0.8 × floor_area_m2; Secondary loop length (m) = 4.0 × sqrt(floor_area_m2)
+hw_demand_level,fuel_in_actual_building,seasonal_generator_efficiency,fuel_in_notional_building,storage_and_secondary_circulation,source_table
+"High","Natural gas / LPG / fuel oil / manufactured smokeless fuel / coal / anthracite",0.93,"Natural gas","Yes","Table 8"
+"High","Electric heat pump",2.86,"Grid electricity (heat pump)","Yes","Table 8"
+"High","Non-electric heat pump",1.40,"Natural gas (heat pump)","Yes","Table 8"
+"High","Waste heat",,"See Table 10","See Table 10","Table 8→10"
+"High","Bio-fuel (biogas or biomass)",,"See Table 10","See Table 10","Table 8→10"
+"High","Dual fuel (mineral + wood)",,"See Table 10","See Table 10","Table 8→10"
+"High","Electricity (direct)",,"See Table 10","See Table 10","Table 8→10"
+"Low","Natural gas / LPG / fuel oil / manufactured smokeless fuel / coal / anthracite",1.00,"Grid electricity (point-of-use)","No","Table 9"
+"Low","Electric heat pump",2.86,"Grid electricity (heat pump)","No","Table 9"
+"Low","Non-electric heat pump",1.40,"Natural gas (heat pump)","No","Table 9"
+"Low","Waste heat",,"See Table 10","See Table 10","Table 9→10"
+"Low","Bio-fuel (biogas or biomass)",,"See Table 10","See Table 10","Table 9→10"
+"Low","Dual fuel (mineral + wood)",,"See Table 10","See Table 10","Table 9→10"
+"Low","Electricity (direct)",,"See Table 10","See Table 10","Table 9→10"
+"Both","Waste heat",0.70,"Waste heat","Yes","Table 10"
+"Both","Bio-fuel (biogas or biomass)",0.70,"The particular bio-fuel","Yes","Table 10"
+"Both","Dual fuel (mineral + wood)",0.91,"Dual fuel (mineral + wood)","Yes","Table 10"
+"Both","Electricity (direct)",1.00,"Grid electricity (point-of-use)","No","Table 10"

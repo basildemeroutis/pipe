@@ -1,0 +1,13 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 43, p146"
+fuel_type,price_factor_vs_gas
+gas,1.00
+LPG,2.74
+Biogas,1.48
+oil,1.72
+coal,0.61
+Anthracite,1.07
+Smokeless fuel (inc coke),0.61
+Dual fuel appliances (mineral + wood),1.48
+biomass,1.48
+electricity,3.43
+Waste heat,0.20

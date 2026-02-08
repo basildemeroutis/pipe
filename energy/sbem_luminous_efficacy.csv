@@ -1,0 +1,14 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 21, p91-92 (from England 2025 NCM Modelling Guide)"
+lamp_type,standard_sidelit_lm_per_cW,standard_toplit_lm_per_cW,distress_sidelit_lm_per_cW,distress_toplit_lm_per_cW
+LED,50.0,50.0,55.0,55.0
+Tungsten and Halogen,7.5,9.0,7.5,9.0
+Fluorescent - compact,22.5,27.0,22.5,27.0
+T12 Fluorescent - halophosphate - low frequency ballast,25.0,30.0,25.0,30.0
+T8 Fluorescent - halophosphate - low frequency ballast,27.5,33.0,55.0,55.0
+T8 Fluorescent - halophosphate - high frequency ballast,32.5,39.0,55.0,58.5
+T8 Fluorescent - triphosphor - high frequency ballast,36.3,43.5,55.0,65.3
+Metal Halide,25.0,39.0,25.0,39.0
+High Pressure Mercury,22.5,27.0,22.5,27.0
+High Pressure Sodium,35.0,42.0,35.0,42.0
+T5 Fluorescent - triphosphor-coated - high frequency ballast,37.5,45.0,56.3,67.5
+Fluorescent (no details),22.5,27.0,22.5,27.0

@@ -1,0 +1,6 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 25, p101 (from England 2025 NCM Modelling Guide)"
+pump_configuration,lthw_only_Wm2,both_lthw_chw_Wm2
+Constant speed pumping,0.6,1.8
+Variable speed pumping with differential sensor across pump,0.5,1.5
+Variable speed pumping with differential sensor in the system,0.4,1.1
+Variable speed pumping with multiple pressure sensors in the system,0.3,0.9

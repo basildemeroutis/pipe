@@ -1,0 +1,14 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 45, p158-159"
+fuel_type,financial_payback_factor
+Natural gas,1.00
+LPG,0.36
+Biogas,0.68
+Oil,0.58
+Coal,1.64
+Anthracite,1.64
+Smokeless fuel (inc coke),1.64
+Dual fuel appliances (mineral + wood),0.68
+Biomass,0.68
+Grid supplied electricity,1.22
+Grid displaced electricity,0.00
+Waste heat,0.10

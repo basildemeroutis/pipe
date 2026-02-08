@@ -1,0 +1,11 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 19, p79 (from BS EN 15242:2007)"
+building_category,leakage_level,Q4pa_m3hm2_envelope,Q10pa_m3hm2_envelope,Q50pa_m3hm2_envelope
+single family,low,0.5,1.0,2.5
+single family,average,1.0,2.0,5.0
+single family,high,2.0,3.5,10.0
+multi family / non-residential (excl industrial),low,0.5,1.0,2.5
+multi family / non-residential (excl industrial),average,1.0,2.0,5.0
+multi family / non-residential (excl industrial),high,2.0,3.5,10.0
+industrial,low,1.0,2.0,5.0
+industrial,average,2.0,3.5,10.0
+industrial,high,4.0,7.0,20.0

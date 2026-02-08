@@ -1,0 +1,81 @@
+## Source: CIBSE Guide F (2nd edition, 2004), Table 20.18, p20-10
+## Original source: ECG 19 (office types), ECG 18 (industrial types)
+## Document: CIBSE guide F - energy-efficiency-in-buildings.pdf
+## Extracted: 2026-02-07
+## Context: End-use energy benchmarks for mixed-use and industrial buildings
+## Area basis: Gross floor area
+## Type 1: Cellular NV office; Type 2: Open plan NV office; Type 3: Standard AC office; Type 4: Prestige AC office
+## Type 5: Distribution and storage; Type 6: Light manufacturing; Type 7: Factory office; Type 8: General manufacturing
+building_type,building_type_name,end_use,fuel_type,good_practice_kwhm2,typical_kwhm2
+1,"Cellular NV office","Gas/oil heating and hot water","fossil",75,143
+1,"Cellular NV office","Catering gas","fossil",0,0
+1,"Cellular NV office","Cooling","electricity",0,0
+1,"Cellular NV office","Fans pumps and controls","electricity",2,6
+1,"Cellular NV office","Lighting","electricity",13,22
+1,"Cellular NV office","Office equipment","electricity",11,17
+1,"Cellular NV office","Catering","electricity",2,3
+1,"Cellular NV office","Other","electricity",3,4
+1,"Cellular NV office","Process/computer room","electricity",0,0
+2,"Open plan NV office","Gas/oil heating and hot water","fossil",75,143
+2,"Open plan NV office","Catering gas","fossil",0,0
+2,"Open plan NV office","Cooling","electricity",1,2
+2,"Open plan NV office","Fans pumps and controls","electricity",4,8
+2,"Open plan NV office","Lighting","electricity",21,36
+2,"Open plan NV office","Office equipment","electricity",19,26
+2,"Open plan NV office","Catering","electricity",3,5
+2,"Open plan NV office","Other","electricity",4,5
+2,"Open plan NV office","Process/computer room","electricity",0,0
+3,"Standard AC office","Gas/oil heating and hot water","fossil",87,160
+3,"Standard AC office","Catering gas","fossil",0,0
+3,"Standard AC office","Cooling","electricity",13,28
+3,"Standard AC office","Fans pumps and controls","electricity",27,54
+3,"Standard AC office","Lighting","electricity",24,49
+3,"Standard AC office","Office equipment","electricity",21,28
+3,"Standard AC office","Catering","electricity",5,5
+3,"Standard AC office","Other","electricity",14,25
+3,"Standard AC office","Process/computer room","electricity",0,0
+4,"Prestige AC office","Gas/oil heating and hot water","fossil",91,171
+4,"Prestige AC office","Catering gas","fossil",6,8
+4,"Prestige AC office","Cooling","electricity",18,35
+4,"Prestige AC office","Fans pumps and controls","electricity",31,57
+4,"Prestige AC office","Lighting","electricity",25,51
+4,"Prestige AC office","Office equipment","electricity",20,27
+4,"Prestige AC office","Catering","electricity",11,13
+4,"Prestige AC office","Other","electricity",24,36
+4,"Prestige AC office","Process/computer room","electricity",0,0
+5,"Distribution and storage","Gas/oil heating and hot water","fossil",80,185
+5,"Distribution and storage","Catering gas","fossil",0,0
+5,"Distribution and storage","Cooling","electricity",1,1
+5,"Distribution and storage","Fans pumps and controls","electricity",5,8
+5,"Distribution and storage","Lighting","electricity",5,25
+5,"Distribution and storage","Office equipment","electricity",2,2
+5,"Distribution and storage","Catering","electricity",2,2
+5,"Distribution and storage","Other","electricity",5,5
+5,"Distribution and storage","Process/computer room","electricity",0,0
+6,"Light manufacturing","Gas/oil heating and hot water","fossil",90,300
+6,"Light manufacturing","Catering gas","fossil",0,0
+6,"Light manufacturing","Cooling","electricity",2,2
+6,"Light manufacturing","Fans pumps and controls","electricity",6,10
+6,"Light manufacturing","Lighting","electricity",15,50
+6,"Light manufacturing","Office equipment","electricity",2,2
+6,"Light manufacturing","Catering","electricity",2,2
+6,"Light manufacturing","Other","electricity",4,4
+6,"Light manufacturing","Process/computer room","electricity",0,0
+7,"Factory office","Gas/oil heating and hot water","fossil",100,225
+7,"Factory office","Catering gas","fossil",0,0
+7,"Factory office","Cooling","electricity",6,6
+7,"Factory office","Fans pumps and controls","electricity",10,15
+7,"Factory office","Lighting","electricity",20,60
+7,"Factory office","Office equipment","electricity",8,8
+7,"Factory office","Catering","electricity",4,4
+7,"Factory office","Other","electricity",7,7
+7,"Factory office","Process/computer room","electricity",0,0
+8,"General manufacturing","Gas/oil heating and hot water","fossil",125,325
+8,"General manufacturing","Catering gas","fossil",0,0
+8,"General manufacturing","Cooling","electricity",6,6
+8,"General manufacturing","Fans pumps and controls","electricity",10,20
+8,"General manufacturing","Lighting","electricity",20,45
+8,"General manufacturing","Office equipment","electricity",2,2
+8,"General manufacturing","Catering","electricity",2,2
+8,"General manufacturing","Other","electricity",10,10
+8,"General manufacturing","Process/computer room","electricity",0,0

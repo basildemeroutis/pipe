@@ -1,0 +1,18 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Appendix B, p144-164"
+end_use,metric,good_threshold,fair_threshold,poor_threshold,notes
+heating,kWh/m2,Actual < Notional,Notional <= Actual < Typical,Actual >= Typical,Compared against Notional and Typical building
+cooling,kWh/m2,Actual < 0.85 * Notional,0.85*Notional <= Actual < 1.5*Notional,Actual >= 1.5 * Notional,Compared against Notional building only; ignore virtual cooling
+lighting,kWh/m2,Actual < Notional,Notional <= Actual < Typical,Actual >= Typical,Compared against Notional and Typical building
+hot_water,kWh/m2,Actual < Notional,Notional <= Actual < Typical,Actual >= Typical,Compared against Notional and Typical building
+auxiliary,kWh/m2,Actual < Notional,Notional <= Actual < Typical,Actual >= Typical,Compared against Notional and Typical building
+heat_generator,efficiency,>0.88,0.70 to 0.88,<0.70,Boiler criterion set to 0.70 to classify defaults as poor
+cold_generator,SSEER,>2.4,2.0 to 2.4,<2.0,
+hw_generator_standalone,efficiency,>0.79,0.70 to 0.79,<0.70,Only when NOT provided by space heating boiler
+duct_leakage,percentage,<5%,5% to <10%,>=10%,Applicable to ducted HVAC systems only
+glazing,U-value W/m2K,<3.5,,>=3.5,Assumed single glazed if U>3.5; triggers EPC-E5 and EPC-E8
+walls_solid,U-value W/m2K,<1.0,,>=1.0,Triggers EPC-E3
+walls_cavity,U-value W/m2K,<1.0,,>=1.0,Triggers EPC-E4
+roof_flat,U-value W/m2K,<1.0,,>=1.0,Triggers EPC-E2
+roof_pitched,U-value W/m2K,<1.0,,>=1.0,Triggers EPC-E6
+floor,U-value W/m2K,<1.0,,>=1.0,Triggers EPC-E1
+airtightness,permeability m3/h/m2@50Pa,<14,,>=14,Triggers EPC-E7

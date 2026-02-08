@@ -1,0 +1,9 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Appendix B logic, p146-149"
+system_type,intervention,target_efficiency,epc_code,notes
+boiler_poor,High efficiency boiler,0.81,EPC-H1,Target for poor boilers (<0.70)
+boiler_fair,Condensing boiler,0.89,EPC-H3,Target for fair boilers (0.70-0.88); gas/oil/LPG only
+chiller,High efficiency chiller,2.5,EPC-C2,Target SSEER for fair/poor chillers
+hw_standalone,High efficiency water heater,0.80,EPC-W1,Target for fair HW generators (0.70-0.79)
+hw_system,Point of use DHW,0.75,EPC-W2,Target distribution efficiency for poor HWS
+electric_heating_ashp,Consider ASHP,2.2,EPC-R5,Default iSBEM ASHP COP; triggered when elec heating COP<2
+electric_heating_gshp,Consider GSHP,3.1,EPC-R1,GSHP target COP; triggered when elec heating COP<2

@@ -1,0 +1,6 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 16, p76"
+heat_recovery_system,default_efficiency
+Plate heat exchanger (Recuperator),0.65
+Heat-pipes,0.60
+Thermal wheel,0.65
+Run around coil,0.50

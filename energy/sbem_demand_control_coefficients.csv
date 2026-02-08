@@ -1,0 +1,6 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 18, p78"
+demand_control_type,coefficient_Cdc
+None,0.00
+Control based on occupancy number of occupants,0.85
+Control based on gas sensor,0.95
+Enhanced natural ventilation,0.50

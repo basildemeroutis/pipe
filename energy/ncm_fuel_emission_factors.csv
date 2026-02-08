@@ -1,0 +1,18 @@
+## Source: NCM Modelling Guide 2021 Edition (England), Tables 29/30/31, p59
+## Document: ncm_modelling_guide_2021_edition_england_21dec2021.pdf
+## Extracted: 2026-02-07
+## Context: CO2 emission factors and primary energy factors for non-domestic buildings
+## Notes: CO2 values are CO2-equivalent (includes CH4 and N2O). Grid electricity uses monthly factors from Table 30.
+fuel_type,co2_kgco2_per_kwh,primary_energy_kwhpe_per_kwh,notes,source_table
+"Natural gas",0.210,1.126,"","T29"
+"LPG",0.241,1.141,"","T29"
+"Biogas",0.024,1.286,"","T29"
+"Fuel oil",0.319,1.180,"","T29"
+"Coal",0.375,1.064,"","T29"
+"Anthracite",0.395,1.064,"","T29"
+"Manufactured smokeless fuel (inc. Coke)",0.366,1.261,"","T29"
+"Dual fuel (mineral + wood)",0.087,1.049,"","T29"
+"Biomass",0.029,1.037,"","T29"
+"Grid supplied electricity",,"","See monthly factors in ncm_electricity_factors_monthly.csv","T30"
+"Grid displaced electricity",,"","See monthly factors; PV uses separate table","T31"
+"Waste heat",0.015,1.063,"Includes waste heat from industrial processes and power stations","T29"

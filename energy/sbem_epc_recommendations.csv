@@ -1,0 +1,43 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 47, p163"
+epc_code,description,category,payback_years
+EPC-C1,Default chiller efficiency,COOLING,3.0
+EPC-C2,Install high efficiency chiller,COOLING,3.5
+EPC-C3,Inspect and seal ductwork,COOLING,7.5
+EPC-W1,High efficiency water heater,HOT-WATER,4.15
+EPC-W3,DHW storage insulation,HOT-WATER,3.8
+EPC-W4,DHW secondary circulation time control,HOT-WATER,4.5
+EPC-W2,DHW point of use system,HOT-WATER,8.0
+EPC-E1,Insulate floor,ENVELOPE,15.0
+EPC-E2,Insulate roof,ENVELOPE,25.0
+EPC-E3,Insulate solid walls,ENVELOPE,6.5
+EPC-E4,Cavity wall insulation,ENVELOPE,3.7
+EPC-E5,Secondary glazing,ENVELOPE,4.6
+EPC-E6,Insulate loft,ENVELOPE,5.6
+EPC-E7,Pressure test,ENVELOPE,7.0
+EPC-E8,Improve glazing,ENVELOPE,9.3
+EPC-F1,Oil or LPG to natural gas (heating),FUEL-SWITCHING,1.08
+EPC-F2,Coal to natural gas (heating),FUEL-SWITCHING,3.75
+EPC-F3,Coal to biomass (heating),FUEL-SWITCHING,3.81
+EPC-F4,Oil or LPG to biomass (heating),FUEL-SWITCHING,6.7
+EPC-F5,Gas to biomass (heating),FUEL-SWITCHING,6.72
+EPC-F6,Coal to oil (heating),FUEL-SWITCHING,8.4
+EPC-H2,Heating central time control,HEATING,1.8
+EPC-H5,Local time control,HEATING,5.8
+EPC-H6,Room temperature control,HEATING,4.8
+EPC-H7,Heating optimum start and stop control,HEATING,2.5
+EPC-H8,Heating weather compensation controls,HEATING,5.0
+EPC-H1,Install high efficiency boiler,HEATING,2.3
+EPC-H3,Install condensing boiler,HEATING,6.6
+EPC-H4,Default heat generator efficiency,HEATING,3.0
+EPC-L1,T12 to T8,LIGHTING,0.6
+EPC-L2,GLS to CFL,LIGHTING,0.85
+EPC-L3,HP mercury to SON replacements,LIGHTING,1.8
+EPC-L5,T8 to T5,LIGHTING,2.8
+EPC-L6,HP mercury to SON,LIGHTING,3.5
+EPC-L7,Mains to HF ballast,LIGHTING,5.7
+EPC-V1,Overheating,OVERHEATING,1.7
+EPC-R1,Consider GSHP,RENEWABLES,11.7
+EPC-R2,Install wind turbine,RENEWABLES,15.9
+EPC-R3,Install solar thermal water heating,RENEWABLES,20.2
+EPC-R4,Install PV system,RENEWABLES,44.7
+EPC-R5,Consider ASHP,RENEWABLES,9.8

@@ -1,0 +1,9 @@
+source,"SBEM Technical Manual v7.0.c (13 Dec 2023), Table 6, p44"
+junction_type,metal_cladding_psi_WmK,non_metal_cladding_psi_WmK
+Roof to wall,0.42,0.18
+Wall to ground floor,1.73,0.24
+Wall to wall (corner),0.38,0.14
+Wall to floor (not ground floor),0.04,0.11
+Lintel above window or door,1.91,0.45
+Sill below window,1.91,0.08
+Jamb at window or door,1.91,0.09

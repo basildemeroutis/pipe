@@ -1,0 +1,36 @@
+## Source: CIBSE TM46:2008 Energy Benchmarks, Table 1
+## Extracted: 2026-02-07
+## Reference degree-days: 2021 (15.5°C base)
+## CO2 factors (illustrative): Electricity 0.550 kgCO2/kWh, Fossil-thermal 0.190 kgCO2/kWh
+## Notes: Benchmarks are "typical" values for Display Energy Certificates
+## Floor area metric: Gross Internal Area (GIA) unless alternate metric specified
+category_id,category_name,brief_description,electricity_benchmark_kwhm2,fossil_thermal_benchmark_kwhm2,co2_electricity_kgco2m2,co2_fossil_kgco2m2,co2_total_kgco2m2,primary_metric,alternate_metric,alternate_multiplier,weather_adj_elec_pct,weather_adj_fossil_pct,reference_hours_per_year,max_hours_per_year,max_increase_elec_pct,max_increase_fossil_pct
+1,General office,General office and commercial working areas,95,120,52.3,22.8,75.1,GIA,NLA,1.25,0,55,2040,8760,107,44
+2,High street agency,High street agency,140,0,77.0,0.0,77.0,GIA,,,,,,,,
+3,General retail,General street retail and services,165,0,90.8,0.0,90.8,GIA,SFA,1.80,20,0,2448,3672,22,0
+4,Large non-food shop,Retail warehouse or other large non-food store,70,170,38.5,32.3,70.8,GIA,SFA,1.80,15,0,2448,3672,22,0
+5,Small food store,Small food store,310,0,170.5,0.0,170.5,GIA,SFA,1.35,0,55,2448,4284,32,15
+6,Large food store,Supermarket or other large food store,400,105,220.0,20.0,240.0,GIA,SFA,2.00,15,0,2448,3672,22,0
+7,Restaurant,Restaurant,90,370,49.5,70.3,119.8,GIA,,,0,55,2983,4284,20,9
+8,Bar pub or licensed club,Bar pub or club,130,350,71.5,66.5,138.0,GIA,,,20,30,3060,5712,37,17
+9,Hotel,Hotel or boarding house,105,330,57.8,62.7,120.5,GIA,,,0,40,3060,5712,37,17
+10,Cultural activities,Museum art gallery or other public building with normal occupancy,70,200,38.5,38.0,76.5,GIA,,,0,45,,,,
+11,Entertainment halls,Entertainment halls,150,420,82.5,79.8,162.3,GIA,,,0,55,2040,4284,45,20
+12,Swimming pool centre,Swimming pool hall changing and ancillaries,245,1130,134.8,214.7,349.5,GIA,,,0,55,2856,5712,19,0
+13,Fitness and health centre,Fitness centre,160,440,88.0,83.6,171.6,GIA,,,0,55,2856,4641,27,13
+14,Dry sports and leisure facility,Dry sports and leisure facility,95,330,52.3,62.7,115.0,GIA,,,0,40,2754,5355,39,18
+15,Covered car park,Car park with roof and side walls,20,0,11.0,0.0,11.0,GIA,,,0,55,2754,5355,39,18
+16,Public buildings with light usage,Light use public and institutional buildings,20,105,11.0,20.0,31.0,GIA,,,0,0,4284,8568,41,0
+17,Schools and seasonal public buildings,Public buildings nominally used for part of the year,40,150,22.0,28.5,50.5,GIA,,,0,55,1400,3672,62,27
+18,University campus,University campus,80,240,44.0,45.6,89.6,GIA,,,0,55,2450,5355,48,22
+19,Clinic,Health centres clinics and surgeries,70,200,38.5,38.0,76.5,GIA,,,0,55,2040,4284,45,20
+20,Hospital clinical and research,Clinical and research hospital,90,420,49.5,79.8,129.3,GIA,,,0,55,,,,
+21,Long term residential,Long term residential accommodation,65,420,35.8,79.8,115.6,GIA,,,0,55,,,,
+22,General accommodation,General accommodation,60,300,33.0,57.0,90.0,GIA,,,0,55,2940,4284,21,10
+23,Emergency services,Emergency services,70,390,38.5,74.1,112.6,GIA,,,0,55,,,,
+24,Laboratory or operating theatre,Laboratory or operating theatre,160,160,88.0,30.4,118.4,GIA,,,0,55,2040,8568,105,43
+25,Public waiting or circulation,Bus or train station shopping centre mall,30,120,16.5,22.8,39.3,GIA,,,0,55,,,,
+26,Terminal,Regional transport terminal with concourse,75,200,41.3,38.0,79.3,GIA,,,0,55,,,,
+27,Workshop,Workshop or open working area not office,35,180,19.3,34.2,53.5,GIA,,,0,55,2040,3672,34,16
+28,Storage facility,Storage warehouse or depot,35,160,19.3,30.4,49.7,GIA,,,0,70,2040,4284,45,20
+29,Cold storage,Refrigerated warehouse,145,80,79.8,15.2,95.0,GIA,,,0,55,,,,

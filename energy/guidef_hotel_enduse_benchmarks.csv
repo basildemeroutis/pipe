@@ -1,0 +1,39 @@
+## Source: CIBSE Guide F (2nd edition, 2004), Tables 20.14-20.17, pp20-9
+## Original source: ECG 36 / EEB 9
+## Document: CIBSE guide F - energy-efficiency-in-buildings.pdf
+## Extracted: 2026-02-07
+## Context: End-use energy benchmarks for hotels (base data, no pool or AC)
+## Unit: kWh per bedroom per year (standard: 58 m² GFA per bedroom)
+## Type 1: Luxury hotel; Type 2: Business/holiday hotel; Type 3: Small hotel
+## To convert to kWh/m²: divide by 58
+hotel_type,hotel_type_name,end_use,fuel_type,good_practice_kwh_per_bedroom,typical_kwh_per_bedroom
+1,"Luxury","Heating","fossil",180,260
+1,"Luxury","Hot water","fossil",70,110
+1,"Luxury","Catering","fossil",50,90
+1,"Luxury","Lighting","electricity",40,70
+1,"Luxury","Catering","electricity",23,32
+1,"Luxury","Ventilation fans pumps controls","electricity",5,10
+1,"Luxury","Cooling","electricity",2,3
+1,"Luxury","Office equipment","electricity",5,10
+1,"Luxury","Leisure pool","electricity",5,10
+1,"Luxury","Other","electricity",10,15
+2,"Business/holiday","Heating","fossil",160,230
+2,"Business/holiday","Hot water","fossil",60,90
+2,"Business/holiday","Catering","fossil",40,80
+2,"Business/holiday","Lighting","electricity",35,65
+2,"Business/holiday","Catering","electricity",23,32
+2,"Business/holiday","Ventilation fans pumps controls","electricity",5,10
+2,"Business/holiday","Cooling","electricity",2,3
+2,"Business/holiday","Office equipment","electricity",5,10
+2,"Business/holiday","Leisure pool","electricity",5,10
+2,"Business/holiday","Other","electricity",5,10
+3,"Small","Heating","fossil",160,230
+3,"Small","Hot water","fossil",50,70
+3,"Small","Catering","fossil",30,60
+3,"Small","Lighting","electricity",35,55
+3,"Small","Catering","electricity",23,32
+3,"Small","Ventilation fans pumps controls","electricity",5,10
+3,"Small","Cooling","electricity",2,3
+3,"Small","Office equipment","electricity",5,5
+3,"Small","Leisure pool","electricity",5,7
+3,"Small","Other","electricity",5,8
