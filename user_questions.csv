@@ -1,0 +1,75 @@
+﻿User Question Number,Section,Questions,Word Count min,Word Count max,Type,Data type,Normalise case,Instructions for GPT
+01,Investment Thesis,Investment Thesis - Reason 1,5,15,Strategy,String,First word capitalised,"Why should an investor invest in this buiding. Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+02,Investment Thesis,Investment Thesis - Expand Reason 1,40,75,Strategy,String,First word capitalised," Expand on the answer immediately above.  Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+03,Investment Thesis,Investment Thesis - Reason 2 ,5,10,Strategy,String,First word capitalised,"Why should an investor invest in this buiding. Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+04,Investment Thesis,Investment Thesis - Expand Reason 2 ,40,75,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words.Expand on the answer immediately above.  Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+05,Investment Thesis,Investment Thesis - Reason 3 ,5,15,Strategy,String,First word capitalised,"Why should an investor invest in this buiding. Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+06,Investment Thesis,Investment Thesis - Expand Reason 3 ,40,75,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words. Expand on the answer immediately above.  Provide your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+07,Business Plan,Business Plan - Scope Summary,5,10,Strategy,String,First word capitalised,"Summarise the scope of works envisioned by your analysis of the building providing your very best insights, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+08,Business Plan,Business Plan -Performance Targets,50,175,Strategy,String,First word capitalised,"Provide your very best insights about the performance the building could achieve, once improvements have been implemented, using everything you know about this property, uploaded Knowledge, and all other information available to you. Inlude detailed assumptions.  Include confidencee percentage."
+09,Building Systems,Cooling Type,1,50,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+10,Building Systems,Cooling Detail,30,50,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+11,Building Systems,Cooling Improvement,40,75,Strategy,String,First word capitalised,"Provide your very best insights about how to improve the building's cooling systems, using everything you know about this property, uploaded Knowledge, and all other information available to you. Include any assuptions."
+12,Building Systems,Heating Type,1,50,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+13,Building Systems,Heating Detail,30,50,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+14,Building Systems,Heating Improvement,40,75,Strategy,String,First word capitalised,"Provide your very best insights about how to improve the building's heating systems, using everything you know about this property, uploaded Knowledge, and all other information available to you. Include any assumptions"
+15,Building Systems,Ventilation Type,1,50,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+16,Building Systems,Ventilation Detail,30,150,Base build,String,First word capitalised,"Search EPC-related information, or estimate and flag as assumed"
+17,Building Systems,Ventilation Improvement,40,75,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words.Provide your very best insights about how to improve the building's ventilation systems, using everything you know about this property, uploaded Knowledge, and all other information available to you. Include any assumptions."
+18,Energy and Sustainability,Energy Rating Improvement,40,75,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words. Provide your very best insights about how to improve the building's EPC rating, using everything you know about this property, uploaded Knowledge, and all other information available to you. Include any assumptions."
+19,Energy and Sustainability,Sustainable Features Summary,75,150,Base build,String,First word capitalised," Detail current sustainable features the building has, if any. Search EPC-related information, and use uploaded Knowledge, and all other information available to you. "
+20,Energy and Sustainability,Sustainable Features Improvement,65,150,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words. Provide your very best insights about how to improve the sustainable features, using everything you know about this property, uploaded Knowledge, and all other information available to you. Include any assumptions. Mention confidence percentage."
+21,Vertical Transport,Number of lifts,1,20,Base build,Integer (commas no decimal),N/A,"Search EPC, Brochure, Google Search, Publicly Available Information, or estimate and flag as assumed"
+22,Vertical Transport,Lift Breakdown,5,50,Base build,String,First word capitalised,"Provide detail about the use of the lifts (passenger, goods, etc). Search EPC, Brochure, Google Search, Publicly Available Information, or estimate and flag as assumed"
+23,Vertical Transport,Lift Improvement,5,50,Strategy,String,First word capitalised,"Answer should have at least 20 but no more than 50 words.  Provide your very best insights about how to improve the lifts, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+24,Amenities,Cycling & Showers Summary,5,50,Base build,String,First word capitalised,"Search EPC, Brochure, Google Search, Publicly Available Information, or estimate and flag as assumed"
+25,Amenities,Number of Bicycle Spaces and Location,1,20,Base build,Integer (commas no decimal),N/A,"Search EPC, Brochure, Google Search, Publicly Available Information, or estimate and flag as assumed"
+26,Amenities,Cycling and Shower Improvement,25,75,Strategy,String,First word capitalised,"Provide your very best insights about how to improve the cycling and shower facilities, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+27,Amenities,Number of Terraces,1,10,Base build,Integer (commas no decimal),N/A,"Search EPC, Brochure, Google Search, Publicly Available Information, or estimate and flag as assumed"
+28,Amenities,Terraces Qualitative Analysis,40,75,Base build,String,First word capitalised," Provide your very best insights about the currnent quality of the outdoor space, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+29,Amenities,Terrace Improvement,20,75,Strategy,String,First word capitalised,"Provide your very best insights about how to improve the terracing, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+30,Limitations,Limitation of the existing building 1,40,75,Strategy,String,First word capitalised,"Provide your very best insights about the shortcomings of the building, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+31,Limitations,Limitation of the existing building 2,40,75,Strategy,String,First word capitalised,"Provide your very best insights about the shortcomings of the building, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+32,Limitations,Limitation of the existing building 3,40,75,Strategy,String,First word capitalised,"Provide your very best insights about the shortcomings of the building, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+33,Limitations,Limitation of the existing building 4,40,75,Strategy,String,First word capitalised,"Provide your very best insights about the shortcomings of the building, using everything you know about this property, uploaded Knowledge, and all other information available to you"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
