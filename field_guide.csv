@@ -1,5 +1,5 @@
 ﻿Placeholder,Placeholder (no brackets),Field Name (pretty label),Phase,Section in Report Where Used,Source,Required,Description of Expected Content ,Fallback,Dependencies,Word count (min),Word count (max),Tone/Style,Instructions for GPT,Allowed source: user,Allowed source: GPT logic,Allowed source: API,Data Type,Retry on Reject,Normalise Case,Provenence required,Notes,Examples,Benchmark Targets,Auto populates (human info only)
-_metadata,2.46,,,,,,,,,,,,,,,,,,,,,,,
+_metadata,2.50,,,,,,,,,,,,,,,,,,,,,,,
 {{ address_line_1 }},address_line_1,Address,Init,Header and Section 1,OS Places API,Yes,First line of address,"None, mandatory",None,0,10,"Short, factual",Get from OS Places API via /address,No,No,Yes,String,Yes,Leading caps,No,,123 Oxford Street,N/A,Yes
 {{ cert_target_breeam }},cert_target_breeam,BREEAM,Strategy,10,GPT,Yes,"State the target rating (e.g., ""outstanding""), derived from you analysis and detailed assessment using the BRREAM scoring system. ",Insert 'Data unavailable or inconclusive',None,1,10,"Short, factual","GPT deep analysis and synthesis. Mandatory, you must follow instructions in PIPE.ANALYSIS.BREEAM.001 in pipe_companion_file.pdf",No,Yes,No,"Outstanding, Excellent, Very Good, Good, no rating",Yes,All caps,No,,Outstanding ,Outstanding,No
 {{ cert_target_breeam_comments }},cert_target_breeam_comments,BREEAM,Strategy,10,GPT,Yes,"Detail on your assessment. What areas scored well, which did not.  Areas where confidence was low or high. Scope for better results",Insert 'Data unavailable or inconclusive',None,100,200,"Clear, factual, expository","GPT deep analysis and synthesis. Mandatory, you must follow instructions in PIPE.ANALYSIS.BREEAM.001 in pipe_companion_file.pdf. MUST use context_binder_trade*.pdfs",No,Yes,No,String,Yes,Initial caps,No,,,N/A,No
@@ -199,4 +199,5 @@ _metadata,2.46,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
+
 ,,,,,,,,,,,,,,,,,,,,,,,,
