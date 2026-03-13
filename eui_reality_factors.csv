@@ -1,0 +1,12 @@
+crrem_type,base_factor,adj_post2010,adj_pre1990,adj_ac,adj_bms,adj_system_age_gte10,adj_level_gte5,adj_level_lte3,clamp_min,clamp_max,unregulated_kwh,unregulated_source
+Office,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,42,CIBSE Guide F Table 20.9: Standard AC Office
+Retail_HighStreet,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,25,CIBSE Guide F Table 20.9: Retail (High Street)
+Retail_ShoppingCentre,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,25,CIBSE Guide F Table 20.9: Retail (Shopping Centre)
+Retail_Warehouse,1.3,-0.1,0.1,0.0,-0.1,0.1,-0.1,0.1,1.15,1.6,20,CIBSE Guide F Table 20.9: Retail (Warehouse)
+Hotel,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,45,CIBSE Guide F Table 20.9: Hotel
+Healthcare,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,35,CIBSE Guide F est.: Healthcare
+Industrial_Warehouse,1.2,-0.1,0.1,0.0,-0.1,0.1,-0.1,0.1,1.1,1.5,20,CIBSE Guide F Table 20.9: Industrial (Warehouse)
+Industrial_Warehouse_Cold,1.2,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.1,1.5,20,CIBSE Guide F Table 20.9: Industrial (Warehouse)
+School,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,30,CIBSE Guide F est.: School
+Multifamily,1.2,-0.1,0.1,0.0,-0.1,0.1,-0.1,0.1,1.1,1.5,25,CIBSE Guide F est.: Multifamily
+Other,1.3,-0.1,0.1,0.1,-0.1,0.1,-0.1,0.1,1.15,1.6,35,Blended commercial default
